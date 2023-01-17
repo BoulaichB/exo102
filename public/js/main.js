@@ -11,5 +11,6 @@ let h1 = document.querySelector('h1');
 function blueTitle(element){
     element.style.color = 'blue';
 }
-// ### 4. Appelle cette function pour qu'elle soit executé 
+// ### 4. Appelle cette function pour qu'elle soit executé
+blueTitle(h1);
 // ### 5. Met un écouteur d'événement sur le h1, qui au clique lance la function
